@@ -1,0 +1,15 @@
+:root {
+  --color-primary: #06339B;
+  --color-primary-light: #00E5E5;
+  --color-secondary: #F321FF;
+  --color-tertiary: #00EF1F;
+  --color-accent: #F6FF00;
+  --color-buttons-primary: rgba(0, 0, 0, 0.4);
+
+  --font-primary: "Open Sans", sans-serif;
+  --font-secondary: "Roboto", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
