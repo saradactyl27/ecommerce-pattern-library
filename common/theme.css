@@ -12,3 +12,38 @@
 html {
   font-family: var(--font-primary);
 }
+
+h1 {
+  font-family: var(--font-secondary);
+  font-size: 1.9127rem;
+  line-height: 2.6rem;
+}
+
+h2 {
+  font-size: 1.68rem;
+  line-height: 2.275rem;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+h4 {
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+
+a {
+  font-weight: normal;
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+ol li {
+  list-style: disc;
+}
+
+blockquote {
+  line-height: 1rem;
+}
