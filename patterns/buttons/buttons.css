@@ -1,20 +1,28 @@
-.btn {
+.btn-default {
   background-color: var(--color-secondary);
   border-color: var(--color-secondary);
 
   color: #fff;
 }
 
-.btn-light {
+.btn-green {
   background-color: var(--color-tertiary);
   border-color: var(--color-tertiary);
 
   color: #fff;
 }
 
-.btn-ghost {
+.btn-grey {
   background-color: rgba(0, 0, 0, .4);
-  border-color: rgba(0, 0, 0, .4);
+  border: 0px;
 
   color: #fff;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border: 0px;
+
+  color: var(--color-primary);
+  text-decoration: underline;
 }
