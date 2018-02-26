@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library
- * @version 1519656797357
+ * @version 1519659192570
  */
-const patternManifest_1519656797357 = {
+const patternManifest_1519659192570 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -525,8 +525,48 @@ const patternManifest_1519656797357 = {
         "icons": {
           "icons": {
             "cart-icon-white": {
-              "background-color": "black",
-              "backgroundColour": "black",
+              "background-color": "var(--color-primary)",
+              "backgroundColour": "#06339b",
+              "interfaceColours": {
+                "primary": 255,
+                "opposite": 0
+              }
+            },
+            "chat-icon-white": {
+              "background-color": "var(--color-primary)",
+              "backgroundColour": "#06339b",
+              "interfaceColours": {
+                "primary": 255,
+                "opposite": 0
+              }
+            },
+            "email-icon-white": {
+              "background-color": "var(--color-primary)",
+              "backgroundColour": "#06339b",
+              "interfaceColours": {
+                "primary": 255,
+                "opposite": 0
+              }
+            },
+            "facebook-white": {
+              "background-color": "var(--color-primary)",
+              "backgroundColour": "#06339b",
+              "interfaceColours": {
+                "primary": 255,
+                "opposite": 0
+              }
+            },
+            "instagram-white": {
+              "background-color": "var(--color-primary)",
+              "backgroundColour": "#06339b",
+              "interfaceColours": {
+                "primary": 255,
+                "opposite": 0
+              }
+            },
+            "twitter-white": {
+              "background-color": "var(--color-primary)",
+              "backgroundColour": "#06339b",
               "interfaceColours": {
                 "primary": 255,
                 "opposite": 0
@@ -632,7 +672,9 @@ const patternManifest_1519656797357 = {
           "namePretty": "Circle card",
           "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/cards/circle-card.html",
           "localPath": "patterns/cards/circle-card.html",
-          "readme": {}
+          "readme": {
+            "width": 300
+          }
         },
         {
           "name": "image-card",
@@ -747,5 +789,5 @@ const patternManifest_1519656797357 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519656797357);
+patternBotIncludes(patternManifest_1519659192570);
 }());

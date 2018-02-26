@@ -23,7 +23,17 @@ colors:
 icons:
   icons:
     cart-icon-white:
-      background-color: black
+      background-color: var(--color-primary)
+    chat-icon-white:
+      background-color: var(--color-primary)
+    email-icon-white:
+      background-color: var(--color-primary)
+    facebook-white:
+      background-color: var(--color-primary)
+    instagram-white:
+      background-color: var(--color-primary)
+    twitter-white:
+      background-color: var(--color-primary)
 ---
 
 We are proud to say we are the first and only company in the world to provide customers with the opportunity to bring their bubble play to a whole new level.
