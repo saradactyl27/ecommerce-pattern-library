@@ -12,14 +12,22 @@
 </head>
 <body>
 
-  <form class="max-length island grid" action="#" method="post">
+  <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    <h3 class="push-0">
+      <i class="icon i-32"><svg><use xlink:href="images/error-icons.svg#error"/></svg></i>
+      <span class="icon-label">There are items that require your attention</span>
+    </h3>
+  </div>
 
-    <div class="unit s-1 m-1 l-1">
-      <input type="checkbox" name="" value="">
-      <label for="">I agree to the terms and conditions...</label>
-    </div>
+  <div class="unit s-1 m-1 l-1">
+    <input type="checkbox" id="terms">
+    <label for="terms">I agree to the terms and conditions...</label>
+    <p class="error-message milli island-1-4 push-0" id="terms-error">
+      <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
+      <span class="icon-label">Please provide agree to the terms and conditions</span>
+    </p>
+  </div>
 
-  </form>
-
+  <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
 </body>
 </html>
