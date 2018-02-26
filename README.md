@@ -1,5 +1,5 @@
 ---
-name: Custom Bubbles
+name: Dream Bubbles
 fontUrl: "https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700"
 fonts:
   primary: |
@@ -19,6 +19,11 @@ colors:
     The secondary colour is used to brighten up the page.  Use it for buttons, and for that extra pop of cards or sections.
   accent: |
     The asccent colours are used for that extra bit of pop and fun on the page. Use them for buttons, links, sections, cards, and anything else that needs an extra pop.
+
+icons:
+  icons:
+    cart-icon-white:
+      background-color: black
 ---
 
 We are proud to say we are the first and only company in the world to provide customers with the opportunity to bring their bubble play to a whole new level.
