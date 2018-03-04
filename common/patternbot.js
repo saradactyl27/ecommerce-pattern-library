@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library
- * @version 1519671371248
+ * @version 1520202379961
  */
-const patternManifest_1519671371248 = {
+const patternManifest_1520202379961 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -775,6 +775,12 @@ const patternManifest_1519671371248 = {
       "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/navigation",
       "html": [
         {
+          "name": "filters-nav",
+          "namePretty": "Filters nav",
+          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/navigation/filters-nav.html",
+          "localPath": "patterns/navigation/filters-nav.html"
+        },
+        {
           "name": "main-web-nav",
           "namePretty": "Main web nav",
           "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/navigation/main-web-nav.html",
@@ -825,5 +831,5 @@ const patternManifest_1519671371248 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519671371248);
+patternBotIncludes(patternManifest_1520202379961);
 }());

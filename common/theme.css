@@ -34,7 +34,7 @@ h4 {
   line-height: 1.3rem;
 }
 
-a {
+li, a {
   font-family: var(--font-secondary);
   font-weight: normal;
   text-decoration: none;

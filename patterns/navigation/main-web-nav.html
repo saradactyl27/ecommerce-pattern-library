@@ -7,10 +7,52 @@
   <link href="../../common/grid.css" rel="stylesheet">
   <link href="../../common/type.css" rel="stylesheet">
   <link href="../../common/theme.css" rel="stylesheet">
+  <link href="navigation.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700" rel="stylesheet">
   <link href="form-fields.css" rel="stylesheet"></head>
 </head>
 <body>
+
+  <header class="" role="banner">
+    <div class="page-header grid pad-t push-2">
+      <div class="unit s-1 m-1-4 l-1-4">
+        <img class="img-flex logo" src="../../images/logo-256.svg" alt="">
+      </div>
+      <nav class="push unit s-1 m-1-2 l-1-2 gutter" role="navigation" tabindex="0">
+        <ul class="nav-bar">
+          <div class="drop-down">
+            <li class="gutter nav-item mega"><a class="" href="#"></a>Shop</li>
+            <div class="drop-down-content">
+              <a href="#">Bubbles</a>
+              <a href="#">Wands</a>
+              <a href="#">Machines</a>
+              <a href="#">Customize</a>
+            </div>
+          </div>
+          <div class="drop-down">
+            <li class="gutter nav-item mega"><a class="" href="#"></a>Services</li>
+            <div class="drop-down-content">
+              <a href="#">About Us</a>
+              <a href="#">Account</a>
+              <a href="#">Contact</a>
+              <a href="#">FAQ</a>
+            </div>
+          </div>
+        </ul>
+      </nav>
+      <div class="search-container unit s-1 m-1-4 l-1-4">
+        <div class="">
+          <form class="grid" action="index.html" method="post">
+            <input class="search-term unit s-1-2 m-1-2 l-1-2" type="text" placeholder="Search" name="search">
+            <button class="search-button unit s-1-4 m-1-4 l-1-4" type="" name="button"><i class="icon i-32 search-icon"><svg><use xlink:href="../../images/icons.svg#search-icon-white"/></svg></i></button>
+            <a class="cart-btn unit s-1-4 m-1-4 l-1-4 mega" href="#">Cart</a>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+  </header>
 
 </body>
 </html>
