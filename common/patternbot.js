@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library
- * @version 1520257343003
+ * @version 1520265644602
  */
-const patternManifest_1520257343003 = {
+const patternManifest_1520265644602 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -628,7 +628,9 @@ const patternManifest_1520257343003 = {
     "patterns": [
       "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/buttons",
       "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/cards",
+      "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/footer",
       "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/form-fields",
+      "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/header",
       "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/navigation"
     ],
     "pages": []
@@ -714,6 +716,28 @@ const patternManifest_1520257343003 = {
       ]
     },
     {
+      "name": "footer",
+      "namePretty": "Footer",
+      "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/footer",
+      "html": [
+        {
+          "name": "footer",
+          "namePretty": "Footer",
+          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/footer/footer.html",
+          "localPath": "patterns/footer/footer.html"
+        }
+      ],
+      "md": [],
+      "css": [
+        {
+          "name": "footer",
+          "namePretty": "Footer",
+          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/footer/footer.css",
+          "localPath": "patterns/footer/footer.css"
+        }
+      ]
+    },
+    {
       "name": "form-fields",
       "namePretty": "Form fields",
       "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/form-fields",
@@ -779,6 +803,28 @@ const patternManifest_1520257343003 = {
       ]
     },
     {
+      "name": "header",
+      "namePretty": "Header",
+      "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/header",
+      "html": [
+        {
+          "name": "main-website-navigation",
+          "namePretty": "Main website navigation",
+          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/header/main-website-navigation.html",
+          "localPath": "patterns/header/main-website-navigation.html"
+        }
+      ],
+      "md": [],
+      "css": [
+        {
+          "name": "header",
+          "namePretty": "Header",
+          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/header/header.css",
+          "localPath": "patterns/header/header.css"
+        }
+      ]
+    },
+    {
       "name": "navigation",
       "namePretty": "Navigation",
       "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/navigation",
@@ -788,12 +834,6 @@ const patternManifest_1520257343003 = {
           "namePretty": "Breadcrumbs",
           "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/navigation/breadcrumbs.html",
           "localPath": "patterns/navigation/breadcrumbs.html"
-        },
-        {
-          "name": "main-website-navigation",
-          "namePretty": "Main website navigation",
-          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/navigation/main-website-navigation.html",
-          "localPath": "patterns/navigation/main-website-navigation.html"
         },
         {
           "name": "pagination",
@@ -840,5 +880,5 @@ const patternManifest_1520257343003 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520257343003);
+patternBotIncludes(patternManifest_1520265644602);
 }());

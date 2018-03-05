@@ -19,10 +19,17 @@
   color: #fff;
 }
 
-.btn-ghost {
+.btn-underline {
   background-color: transparent;
   border: 0px;
 
   color: var(--color-primary);
   text-decoration: underline;
+}
+
+.btn-ghost {
+  background-color: var(--color-primary);
+  border: 2px solid white;
+  color: white;
+  border-radius: 10px;
 }
