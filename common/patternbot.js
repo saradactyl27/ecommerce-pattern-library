@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library
- * @version 1520211366530
+ * @version 1520254889219
  */
-const patternManifest_1520211366530 = {
+const patternManifest_1520254889219 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -685,6 +685,12 @@ const patternManifest_1520211366530 = {
           "readme": {
             "width": 300
           }
+        },
+        {
+          "name": "product-card",
+          "namePretty": "Product card",
+          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/cards/product-card.html",
+          "localPath": "patterns/cards/product-card.html"
         }
       ],
       "md": [
@@ -775,22 +781,22 @@ const patternManifest_1520211366530 = {
       "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/navigation",
       "html": [
         {
-          "name": "filters-nav",
-          "namePretty": "Filters nav",
-          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/navigation/filters-nav.html",
-          "localPath": "patterns/navigation/filters-nav.html"
+          "name": "breadcrumbs",
+          "namePretty": "Breadcrumbs",
+          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/navigation/breadcrumbs.html",
+          "localPath": "patterns/navigation/breadcrumbs.html"
         },
         {
-          "name": "main-web-nav",
-          "namePretty": "Main web nav",
-          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/navigation/main-web-nav.html",
-          "localPath": "patterns/navigation/main-web-nav.html"
+          "name": "main-website-navigation",
+          "namePretty": "Main website navigation",
+          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/navigation/main-website-navigation.html",
+          "localPath": "patterns/navigation/main-website-navigation.html"
         },
         {
-          "name": "pages-nav",
-          "namePretty": "Pages nav",
-          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/navigation/pages-nav.html",
-          "localPath": "patterns/navigation/pages-nav.html"
+          "name": "pagination",
+          "namePretty": "Pagination",
+          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/navigation/pagination.html",
+          "localPath": "patterns/navigation/pagination.html"
         }
       ],
       "md": [
@@ -831,5 +837,5 @@ const patternManifest_1520211366530 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520211366530);
+patternBotIncludes(patternManifest_1520254889219);
 }());
