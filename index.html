@@ -1013,10 +1013,14 @@
                 </li>
             </ul>
         </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>The product card is used to show each available product. It will include a product shot, the product name, a short or partial description, and a price. The entire card will link to the product page.</p>
+</div>
+          </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2">
-          <div class="resizeable-pattern relative" style="">
+          <div class="resizeable-pattern relative" style="width:300px">
             <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
             <iframe data-src="patterns/cards/product-card.html" scrolling="no" onload="resizeIframe(this)" data-inject-css=" " ></iframe>
               <div class="resizeable-pattern-length">
@@ -1041,7 +1045,16 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="cards-product-card-code-sample-copy-chunk">
+              <code><pre id="cards-product-card-code-sample-copy-chunk">&lt;div class="product-card"&gt;
+  &lt;a href="#">
+    &lt;div>
+      &lt;img class="img-flex" src="http://via.placeholder.com/300x400" alt="">
+    &lt;/div>
+    &lt;h2 class="text-center push-0">Product Name&lt;/h2>
+    &lt;p class="text-center push-1-2">Short description&lt;/p>
+    &lt;p class="text-center peta">$Price CAD&lt;/p>
+  &lt;/a>
+&lt;/div>
 </pre></code>
             </div>
           </div>
@@ -1138,7 +1151,7 @@
     &lt;/h3>
 &lt;/div>
 
-&lt;div class="unit s-1 m-1 l-1">
+&lt;div class="unit s-1 m-1 l-1 island">
   &lt;input type="checkbox" id="terms">
   &lt;label for="terms">I agree to the terms and conditions...&lt;/label>
   &lt;p class="error-message milli island-1-4 push-0" id="terms-error">
