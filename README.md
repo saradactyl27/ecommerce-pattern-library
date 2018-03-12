@@ -16,9 +16,9 @@ colors:
   primary: |
     The primary colours are cool and calming. Use them for headers, footers, and the nav bar.
   secondary: |
-    The secondary colour is used to brighten up the page.  Use it for buttons, and for that extra pop of cards or sections.
+    The secondary colour is used to brighten up the page.  Use it for buttons, and for that extra pop on cards or sections.
   accent: |
-    The asccent colours are used for that extra bit of pop and fun on the page. Use them for buttons, links, sections, cards, and anything else that needs an extra pop.
+    The accent colours are used for that extra bit of pop and fun on the page. Use them for buttons, links, sections, cards, and anything else that needs an extra pop.
 
 icons:
   icons:

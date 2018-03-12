@@ -22,6 +22,10 @@
   position: relative;
 }
 
+.search-btn:hover {
+  background-color: var(--color-primary-light)
+}
+
 .search-container {
   margin-top: 2.5em;
 }
@@ -55,21 +59,21 @@
 .drop-down-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: var(--color-primary);
   min-width: 10em;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .drop-down-content a {
-  color: black;
+  color: white;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.drop-down a:hover {
-  background-color: var(--color-primary);
+.drop-down-content a:hover {
+  background-color: var(--color-primary-light);
   color: white;
 }
 

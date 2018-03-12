@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library
- * @version 1520265644602
+ * @version 1520866160142
  */
-const patternManifest_1520265644602 = {
+const patternManifest_1520866160141 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -585,18 +585,20 @@ const patternManifest_1520265644602 = {
       }
     },
     "icons": [
-      "cart-icon-primary-color",
       "cart-icon-white",
+      "cart-icon-primary-color",
       "chat-icon-primary-color",
-      "email-icon-primary-color",
       "chat-icon-white",
-      "email-icon-white",
       "facebook-primary-color",
       "facebook-white",
+      "email-icon-white",
+      "email-icon-primary-color",
       "instagram-primary-color",
       "instagram-white",
-      "search-icon-primary-color",
+      "star-outline",
+      "star-yellow",
       "search-icon-white",
+      "search-icon-primary-color",
       "twitter-primary-color",
       "twitter-white"
     ],
@@ -626,6 +628,7 @@ const patternManifest_1520265644602 = {
       "size64Local": "logo-64.svg"
     },
     "patterns": [
+      "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/banner",
       "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/buttons",
       "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/cards",
       "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/footer",
@@ -636,6 +639,35 @@ const patternManifest_1520265644602 = {
     "pages": []
   },
   "userPatterns": [
+    {
+      "name": "banner",
+      "namePretty": "Banner",
+      "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/banner",
+      "html": [
+        {
+          "name": "banner",
+          "namePretty": "Banner",
+          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/banner/banner.html",
+          "localPath": "patterns/banner/banner.html"
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/banner/README.md",
+          "localPath": "patterns/banner/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "banner",
+          "namePretty": "Banner",
+          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/banner/banner.css",
+          "localPath": "patterns/banner/banner.css"
+        }
+      ]
+    },
     {
       "name": "buttons",
       "namePretty": "Buttons",
@@ -727,7 +759,14 @@ const patternManifest_1520265644602 = {
           "localPath": "patterns/footer/footer.html"
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/footer/README.md",
+          "localPath": "patterns/footer/README.md"
+        }
+      ],
       "css": [
         {
           "name": "footer",
@@ -808,13 +847,20 @@ const patternManifest_1520265644602 = {
       "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/header",
       "html": [
         {
-          "name": "main-website-navigation",
-          "namePretty": "Main website navigation",
-          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/header/main-website-navigation.html",
-          "localPath": "patterns/header/main-website-navigation.html"
+          "name": "header",
+          "namePretty": "Header",
+          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/header/header.html",
+          "localPath": "patterns/header/header.html"
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/header/README.md",
+          "localPath": "patterns/header/README.md"
+        }
+      ],
       "css": [
         {
           "name": "header",
@@ -880,5 +926,5 @@ const patternManifest_1520265644602 = {
   }
 };
 
-patternBotIncludes(patternManifest_1520265644602);
+patternBotIncludes(patternManifest_1520866160141);
 }());

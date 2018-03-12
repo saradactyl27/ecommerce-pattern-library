@@ -33,3 +33,8 @@
   color: white;
   border-radius: 10px;
 }
+
+.btn-default:hover, .btn-green:hover, .btn-grey:hover, .btn-ghost:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color)
+}

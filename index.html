@@ -138,6 +138,16 @@
               </a>
             </li>
               <li role="presentation">
+                <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="banner" href="#banner">
+                  <div class="relative">
+                    <span>Banner</span>
+                    <i class="icon i-18 absolute pin-cr">
+                      <svg><use xlink:href="#icon-active" /></svg>
+                    </i>
+                  </div>
+                </a>
+              </li>
+              <li role="presentation">
                 <a class="gutter pad-t-1-4 pad-b-1-4 block" role="tab" aria-controls="buttons" href="#buttons">
                   <div class="relative">
                     <span>Buttons</span>
@@ -759,6 +769,87 @@
 
 </section>
 
+        <section class="pattern" id="banner" role="tabpanel" hidden aria-hidden="true" style="">
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
+    <h2 class="pattern-name exa push-1-4" style="color: #06339b; font-family: &quot;Roboto&quot;, sans-serif;">Banner</h2>
+        <ul class="list-group-inline gutter absolute pin-cr">
+            <li>
+              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="banner-banner-code-sample">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-code"></use></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="banner/banner" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+            </li>
+            <li>
+              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/banner/banner.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-pop-out"></use></svg>
+                </i>
+              </a>
+            </li>
+        </ul>
+  </div>
+
+    <div class="pattern-desc milli island" style="">
+      <div class="max-length"><p>The banner is used on the home page. It will use an image related to the sale or advertisement being presented. The type colour can be changed so it works well on top of the image. The button should be bright and draw the users attention. Use the default or green button here.</p>
+</div>
+    </div>
+
+  
+
+    <div class="pattern-details " id="banner--banner" style="">
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
+            <iframe data-src="patterns/banner/banner.html" scrolling="no" onload="resizeIframe(this)" data-inject-css=" " ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="banner-banner-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#banner-banner-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="banner-banner-code-sample-copy-chunk">&lt;section&gt;
+  &lt;div class="banner relative">
+    &lt;img class="img-flex" src="http://via.placeholder.com/400x200" alt="">
+    &lt;div class="banner-content gutter-1-2 pin-bl island">
+      &lt;h1 class="push-1-2 normal">This would be the eye catching phrase.
+        &lt;a class="btn btn-default mega" href="#">Call to Action&lt;/a>
+      &lt;/h1>&lt;/div>
+  &lt;/div>
+&lt;/section>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
+
+</section>
+
         <section class="pattern" id="buttons" role="tabpanel" hidden aria-hidden="true" style="">
   <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
     <h2 class="pattern-name exa push-1-4" style="color: #06339b; font-family: &quot;Roboto&quot;, sans-serif;">Buttons</h2>
@@ -993,11 +1084,9 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="cards-image-card-code-sample-copy-chunk">&lt;div class="img-card island"&gt;
-  &lt;div>
-    &lt;img class="img-flex" src="http://via.placeholder.com/300x300" alt="">
-  &lt;/div>
-  &lt;div class="img-card-content gutter-1-2 ">
+              <code><pre id="cards-image-card-code-sample-copy-chunk">&lt;div class="img-card relative"&gt;
+  &lt;img class="img-flex" src="http://via.placeholder.com/300x300" alt="">
+  &lt;div class="img-card-content pin-bl island">
     &lt;h3 class="giga push-1-2">This would be the eye catching phrase.&lt;/h3>
     &lt;a class="btn btn-grey milli" href="#">Call to Action&lt;/a>
   &lt;/div>
@@ -1112,6 +1201,10 @@
         </ul>
   </div>
 
+    <div class="pattern-desc milli island" style="">
+      <div class="max-length"><p>This footer will appear on every page of the website. The background will always be the primary colour.</p>
+</div>
+    </div>
 
   
 
@@ -1145,7 +1238,7 @@
                 </i>
               </button>
               <code><pre id="footer-footer-code-sample-copy-chunk">&lt;footer class="island-1-2"&gt;
-  &lt;div class="grid push-0 pad-t">
+  &lt;div class="grid push-1-2 pad-t">
     &lt;div class="foot-nav micro unit xs-1 s-1 m-1-2 l-1-2">
       &lt;a href="#">Home&lt;/a>
       &lt;a href="#">About Us&lt;/a>
@@ -1701,21 +1794,21 @@
     <h2 class="pattern-name exa push-1-4" style="color: #06339b; font-family: &quot;Roboto&quot;, sans-serif;">Header</h2>
         <ul class="list-group-inline gutter absolute pin-cr">
             <li>
-              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="header-main-website-navigation-code-sample">
+              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="header-header-code-sample">
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-code"></use></svg>
                 </i>
               </button>
             </li>
             <li>
-              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="header/main-website-navigation" hidden>
+              <button class="center-contents-vertical pattern-tool-btn pattern-include-btn" title="Copy include" aria-label="Copy include" data-copy-include-pattern="header/header" hidden>
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
             </li>
             <li>
-              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/header/main-website-navigation.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/header/header.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-pop-out"></use></svg>
                 </i>
@@ -1724,16 +1817,20 @@
         </ul>
   </div>
 
+    <div class="pattern-desc milli island" style="">
+      <div class="max-length"><p>The main header will appear on ever page of the website. It contains the main navigation of the website and must always be accessible.</p>
+</div>
+    </div>
 
   
 
-    <div class="pattern-details " id="header--main-website-navigation" style="">
+    <div class="pattern-details " id="header--header" style="">
 
       <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2">
           <div class="resizeable-pattern relative" style="">
             <i class="icon i-32 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
-            <iframe data-src="patterns/header/main-website-navigation.html" scrolling="no" onload="resizeIframe(this)" data-inject-css=" " ></iframe>
+            <iframe data-src="patterns/header/header.html" scrolling="no" onload="resizeIframe(this)" data-inject-css=" " ></iframe>
               <div class="resizeable-pattern-length">
                 <div class="resize-handle resize-handle-left" style="">
                   <i class="icon i-18">
@@ -1749,14 +1846,14 @@
           </div>
         </div>
 
-          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="header-main-website-navigation-code-sample" tabindex="-1">
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="header-header-code-sample" tabindex="-1">
             <div class="pattern-code relative milli island-1-2" style="">
-              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#header-main-website-navigation-code-sample-copy-chunk" hidden>
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#header-header-code-sample-copy-chunk" hidden>
                 <i class="icon i-18">
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="header-main-website-navigation-code-sample-copy-chunk">&lt;header class="island" role="banner"&gt;
+              <code><pre id="header-header-code-sample-copy-chunk">&lt;header class="island" role="banner"&gt;
   &lt;div class="page-header grid pad-t push-2">
     &lt;div class="unit s-1 m-1-3 l-1-3">
       &lt;a href="#">
@@ -1766,7 +1863,7 @@
     &lt;nav class="push-0 unit s-1 m-1-3 l-1-3 gutter" role="navigation" tabindex="0">
       &lt;ul class="nav-bar">
         &lt;div class="drop-down">
-          &lt;li class="gutter-1-2 nav-item mega">&lt;a href="#">&lt;/a>Shop&lt;/li>
+          &lt;li class="gutter-1-2 nav-item mega">&lt;a href="#">Shop&lt;/a>&lt;/li>
           &lt;div class="drop-down-content">
             &lt;a href="#">Bubbles&lt;/a>
             &lt;a href="#">Wands&lt;/a>
@@ -1775,7 +1872,7 @@
           &lt;/div>
         &lt;/div>
         &lt;div class="drop-down">
-          &lt;li class="gutter-1-2 nav-item mega">&lt;a href="#">&lt;/a>Services&lt;/li>
+          &lt;li class="gutter-1-2 nav-item mega">&lt;a href="#">Services&lt;/a>&lt;/li>
           &lt;div class="drop-down-content">
             &lt;a href="#">About Us&lt;/a>
             &lt;a href="#">Account&lt;/a>

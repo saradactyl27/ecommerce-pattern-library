@@ -1,14 +1,3 @@
-.img-card {
-  position: relative;
-}
-
-.img-card-content {
-  position: absolute;
-  bottom: 50px;
-  max-width: 15em;
-
-}
-
 .img-circle {
   border-radius: 50%;
 }
