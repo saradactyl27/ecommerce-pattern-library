@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library
- * @version 1521464545534
+ * @version 1521467092173
  */
-const patternManifest_1521464545534 = {
+const patternManifest_1521467092173 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -478,9 +478,9 @@ const patternManifest_1521464545534 = {
           {
             "name": "--color-secondary",
             "namePretty": "Secondary",
-            "raw": "#f321ff",
-            "hex": "#f321ff",
-            "rgba": "rgba(243, 33, 255, 1)"
+            "raw": "#ed58f8",
+            "hex": "#ed58f8",
+            "rgba": "rgba(237, 88, 248, 1)"
           }
         ],
         "neutral": [],
@@ -495,9 +495,9 @@ const patternManifest_1521464545534 = {
           {
             "name": "--color-accent",
             "namePretty": "Accent",
-            "raw": "#f6ff00",
-            "hex": "#f6ff00",
-            "rgba": "rgba(246, 255, 0, 1)"
+            "raw": "#4fd52e",
+            "hex": "#4fd52e",
+            "rgba": "rgba(79, 213, 46, 1)"
           },
           {
             "name": "--color-buttons-primary",
@@ -548,9 +548,9 @@ const patternManifest_1521464545534 = {
       "coloursRaw": {
         "--color-primary": "#06339b",
         "--color-primary-light": "#00e5e5",
-        "--color-secondary": "#f321ff",
+        "--color-secondary": "#ed58f8",
         "--color-tertiary": "#00ef1f",
-        "--color-accent": "#f6ff00",
+        "--color-accent": "#4fd52e",
         "--color-buttons-primary": "rgba(0, 0, 0, .4)"
       },
       "fontsRaw": {
@@ -676,7 +676,8 @@ const patternManifest_1521464545534 = {
       "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/footer",
       "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/form-fields",
       "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/header",
-      "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/navigation"
+      "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/navigation",
+      "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/sections"
     ],
     "pages": [
       {
@@ -952,6 +953,28 @@ const patternManifest_1521464545534 = {
           "localPath": "patterns/navigation/navigation.css"
         }
       ]
+    },
+    {
+      "name": "sections",
+      "namePretty": "Sections",
+      "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/sections",
+      "html": [
+        {
+          "name": "circle-card-header",
+          "namePretty": "Circle card header",
+          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/sections/circle-card-header.html",
+          "localPath": "patterns/sections/circle-card-header.html"
+        }
+      ],
+      "md": [],
+      "css": [
+        {
+          "name": "sections",
+          "namePretty": "Sections",
+          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/sections/sections.css",
+          "localPath": "patterns/sections/sections.css"
+        }
+      ]
     }
   ],
   "config": {
@@ -974,5 +997,5 @@ const patternManifest_1521464545534 = {
   }
 };
 
-patternBotIncludes(patternManifest_1521464545534);
+patternBotIncludes(patternManifest_1521467092173);
 }());
