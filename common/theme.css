@@ -2,8 +2,8 @@
   --color-primary: #06339b;
   --color-primary-light: #00e5e5;
   --color-secondary: #ed58f8;
-  --color-tertiary: #00ef1f;
-  --color-accent: #4fd52e;
+  --color-tertiary: #54e230;
+  --color-accent: #ebf146;
   --color-buttons-primary: rgba(0, 0, 0, .4);
   --font-primary: "Open Sans", sans-serif;
   --font-secondary: "Roboto", sans-serif;
@@ -67,4 +67,8 @@ blockquote {
 
 .accent-background-color {
   background-color: var(--color-accent);
+}
+
+.grey-background-color {
+  background-color: #efefef
 }

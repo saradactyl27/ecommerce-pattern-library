@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library
- * @version 1521467092173
+ * @version 1521469987758
  */
-const patternManifest_1521467092173 = {
+const patternManifest_1521469987758 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -488,16 +488,16 @@ const patternManifest_1521467092173 = {
           {
             "name": "--color-tertiary",
             "namePretty": "Tertiary",
-            "raw": "#00ef1f",
-            "hex": "#00ef1f",
-            "rgba": "rgba(0, 239, 31, 1)"
+            "raw": "#54e230",
+            "hex": "#54e230",
+            "rgba": "rgba(84, 226, 48, 1)"
           },
           {
             "name": "--color-accent",
             "namePretty": "Accent",
-            "raw": "#4fd52e",
-            "hex": "#4fd52e",
-            "rgba": "rgba(79, 213, 46, 1)"
+            "raw": "#ebf146",
+            "hex": "#ebf146",
+            "rgba": "rgba(235, 241, 70, 1)"
           },
           {
             "name": "--color-buttons-primary",
@@ -549,8 +549,8 @@ const patternManifest_1521467092173 = {
         "--color-primary": "#06339b",
         "--color-primary-light": "#00e5e5",
         "--color-secondary": "#ed58f8",
-        "--color-tertiary": "#00ef1f",
-        "--color-accent": "#4fd52e",
+        "--color-tertiary": "#54e230",
+        "--color-accent": "#ebf146",
         "--color-buttons-primary": "rgba(0, 0, 0, .4)"
       },
       "fontsRaw": {
@@ -997,5 +997,5 @@ const patternManifest_1521467092173 = {
   }
 };
 
-patternBotIncludes(patternManifest_1521467092173);
+patternBotIncludes(patternManifest_1521469987758);
 }());
