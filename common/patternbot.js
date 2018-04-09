@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library
- * @version 1522068082852
+ * @version 1523272293269
  */
-const patternManifest_1522068082852 = {
+const patternManifest_1523272293268 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -681,6 +681,11 @@ const patternManifest_1522068082852 = {
     ],
     "pages": [
       {
+        "name": "checkout-form.html",
+        "namePretty": "Checkout form",
+        "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/pages/checkout-form.html"
+      },
+      {
         "name": "home.html",
         "namePretty": "Home",
         "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/pages/home.html"
@@ -843,11 +848,29 @@ const patternManifest_1522068082852 = {
           "readme": {}
         },
         {
+          "name": "error-message",
+          "namePretty": "Error message",
+          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/form-fields/error-message.html",
+          "localPath": "patterns/form-fields/error-message.html"
+        },
+        {
+          "name": "fieldset-headers",
+          "namePretty": "Fieldset headers",
+          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/form-fields/fieldset-headers.html",
+          "localPath": "patterns/form-fields/fieldset-headers.html"
+        },
+        {
           "name": "full-input",
           "namePretty": "Full input",
           "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/form-fields/full-input.html",
           "localPath": "patterns/form-fields/full-input.html",
           "readme": {}
+        },
+        {
+          "name": "month-select-box",
+          "namePretty": "Month select box",
+          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/form-fields/month-select-box.html",
+          "localPath": "patterns/form-fields/month-select-box.html"
         },
         {
           "name": "select-box",
@@ -864,10 +887,10 @@ const patternManifest_1522068082852 = {
           "readme": {}
         },
         {
-          "name": "small-select-box",
-          "namePretty": "Small select box",
-          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/form-fields/small-select-box.html",
-          "localPath": "patterns/form-fields/small-select-box.html",
+          "name": "submit-button",
+          "namePretty": "Submit button",
+          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/form-fields/submit-button.html",
+          "localPath": "patterns/form-fields/submit-button.html",
           "readme": {}
         },
         {
@@ -876,6 +899,12 @@ const patternManifest_1522068082852 = {
           "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/form-fields/text-area.html",
           "localPath": "patterns/form-fields/text-area.html",
           "readme": {}
+        },
+        {
+          "name": "year-select-box",
+          "namePretty": "Year select box",
+          "path": "/Users/sarahnorris/Desktop/Current Assignments/Ecommerce Website/ecommerce-pattern-library/patterns/form-fields/year-select-box.html",
+          "localPath": "patterns/form-fields/year-select-box.html"
         }
       ],
       "md": [
@@ -1002,5 +1031,5 @@ const patternManifest_1522068082852 = {
   }
 };
 
-patternBotIncludes(patternManifest_1522068082852);
+patternBotIncludes(patternManifest_1523272293268);
 }());

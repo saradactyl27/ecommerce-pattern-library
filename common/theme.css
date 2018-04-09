@@ -17,6 +17,7 @@ h1 {
   font-family: var(--font-secondary);
   font-size: 1.9127rem;
   line-height: 2.6rem;
+  color: var(--color-primary);
 }
 
 h2 {
@@ -71,4 +72,8 @@ blockquote {
 
 .grey-background-color {
   background-color: #efefef
+}
+
+.hidden {
+  display: none;
 }

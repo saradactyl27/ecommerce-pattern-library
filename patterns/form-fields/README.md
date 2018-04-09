@@ -1,6 +1,8 @@
 ---
-short-text: |
-  The short text field is used for small chunks of information such as first name or city. It only takes up half the form width.
+short-text:
+  desc: |
+    The short text field is used for small chunks of information such as first name or city. It only takes up half the form width.
+
 full-input: |
   The full input is used for longer pieces of information such as an email or a street address. It uses the full width of the form.
 checkbox: |
@@ -11,4 +13,6 @@ text-area: |
   The text area field is used for a users comments or review of a product.
 small-select-box: |
   The small select box is used for items such as dates, particularly the expiry date for a credit card.
+submit-button: |
+  The submit button is used to submit forms. The text inside the button may change but the colours must always be as seen when submitting a form.
 ---

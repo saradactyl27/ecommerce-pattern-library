@@ -29,3 +29,16 @@ label {
 .is-validated input:invalid + label + .error-message {
   display: block;
 }
+
+legend {
+  color: var(--color-primary);
+  font: var(--font-secondary);
+}
+
+.btn-submit {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+
+  color: #fff;
+
+}

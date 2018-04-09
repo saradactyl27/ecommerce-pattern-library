@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Text area input</title>
+  <title>Error message</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="../../common/modules.css" rel="stylesheet">
   <link href="../../common/grid.css" rel="stylesheet">
@@ -12,11 +12,11 @@
   <link href="form-fields.css" rel="stylesheet">
 </head>
 <body>
-
-  <div class="push-1-2">
-    <label for="comments">Comments <em class="flag-optional milli normal">(optional)</em></label>
-    <textarea id="comments"></textarea>
+  <div class="error-message error-message-highlighted push island-1-2" role="alert" aria-live="assertive">
+    <h3 class="push-0">
+      <i class="icon i-32"><svg><use xlink:href="images/error-icons.svg#error"/></svg></i>
+      <span class="icon-label">There are items that require your attention</span>
+    </h3>
   </div>
-
 </body>
 </html>
