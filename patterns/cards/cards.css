@@ -4,5 +4,8 @@
 
 .img-card-circle-content {
   color: var(--color-primary);
+}
 
+.product-header {
+  colour: var(--color-primary);
 }

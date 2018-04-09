@@ -23,10 +23,12 @@ h1 {
 h2 {
   font-size: 1.68rem;
   line-height: 2.275rem;
+  color: var(--color-primary);
 }
 
 h3 {
   font-weight: normal;
+
 }
 
 h4 {
@@ -76,4 +78,8 @@ blockquote {
 
 .hidden {
   display: none;
+}
+
+.color-primary {
+  color: var(--color-primary);
 }
