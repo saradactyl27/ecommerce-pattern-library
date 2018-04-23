@@ -28,7 +28,6 @@ h2 {
 
 h3 {
   font-weight: normal;
-
 }
 
 h4 {
@@ -73,7 +72,7 @@ blockquote {
 }
 
 .grey-background-color {
-  background-color: #efefef
+  background-color: #efefef;
 }
 
 .hidden {
