@@ -1,19 +1,18 @@
 /* Breadcrumb navigation css */
 
-.breadcrumb li+li:before {
-    padding: 8px;
-    color: var(--color-primary);
-    content: "/\00a0";
+.breadcrumb li + li::before {
+  padding: 8px;
+  color: var(--color-primary);
+  content: "/\00a0";
 }
 
 .breadcrumb-item {
-    color: var(color-primary);
-    text-decoration: none;
-
+  color: var(color-primary);
+  text-decoration: none;
 }
 
 .breadcrumb-item:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .current-breadcrumb {
@@ -28,16 +27,16 @@
 }
 
 .pagination a {
-    color: black;
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
-    transition: background-color .3s;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
 }
 
 .pagination a.active {
-    background-color: var(--color-secondary);
-    color: white;
+  background-color: var(--color-secondary);
+  color: white;
 }
 
 .pagination a:hover:not(.active) {

@@ -896,9 +896,9 @@
   &lt;div class="banner relative">
     &lt;img class="img-flex" src="http://via.placeholder.com/400x200" alt="">
     &lt;div class="banner-content pin-tl island">
-      &lt;h1 class="push-1-2 bold tenamega">This would be the eye catching phrase.
-        &lt;a class="btn btn-default tera" href="#">Call to Action&lt;/a>
-      &lt;/h1>&lt;/div>
+      &lt;h1 class="push-1-2 bold tenamega">This would be the eye catching phrase.&lt;/h1>
+      &lt;a class="btn btn-default tera" href="#">Call to Action&lt;/a>
+    &lt;/div>
   &lt;/div>
 &lt;/section>
 </pre></code>
@@ -1646,7 +1646,9 @@
                   <svg><use xlink:href="#icon-copy"></use></svg>
                 </i>
               </button>
-              <code><pre id="form-fields-fieldset-headers-code-sample-copy-chunk">&lt;legend&gt;Personal Information&lt;/legend>
+              <code><pre id="form-fields-fieldset-headers-code-sample-copy-chunk">&lt;fieldset&gt;
+  &lt;legend>Personal Information&lt;/legend>
+&lt;/fieldset>
 </pre></code>
             </div>
           </div>
@@ -1783,6 +1785,7 @@
   &lt;label for="month">Month&lt;/label>
   &lt;div>
     &lt;select id="month" required aria-describedby="month-error">
+      &lt;option label="Expiry Month">&lt;/option>
       &lt;option>01&lt;/option>
       &lt;option>02&lt;/option>
       &lt;option>03&lt;/option>
@@ -1954,7 +1957,7 @@
               </button>
               <code><pre id="form-fields-short-text-code-sample-copy-chunk">&lt;div class="push-1-2"&gt;
   &lt;label for="name">First Name&lt;/label>
-  &lt;input type="text" required aria-describedby="first-name-error">
+  &lt;input type="text" required aria-describedby="first-name-error" id="name">
   &lt;p class="error-message milli island-1-4 push-0" id="first-name-error">
     &lt;i class="icon i-16">&lt;svg>&lt;use xlink:href="images/icons.svg#error"/>&lt;/svg>&lt;/i>
     &lt;span class="icon-label">Please provide an first name&lt;/span>
@@ -2156,6 +2159,7 @@
               <code><pre id="form-fields-year-select-box-code-sample-copy-chunk">&lt;div class="push-1-2"&gt;
   &lt;label for="year">Year&lt;/label>
   &lt;select id="year" required aria-describedby="year-error">
+    &lt;option label="Expiry Year">&lt;/option>
     &lt;option>18&lt;/option>
     &lt;option>19&lt;/option>
     &lt;option>20&lt;/option>
@@ -2251,32 +2255,37 @@
         &lt;/a>
     &lt;/div>
     &lt;nav class="push-0 unit s-1 m-1-3 l-1-3 gutter" role="navigation" tabindex="0">
-      &lt;ul class="nav-bar">
+      &lt;div class="nav-bar">
         &lt;div class="drop-down">
-          &lt;li class="gutter-1-2 nav-item mega">&lt;a href="../../pages/shop.html">Shop&lt;/a>&lt;/li>
-          &lt;div class="drop-down-content">
-            &lt;a href="../../pages/shop.html">Bubbles&lt;/a>
-            &lt;a href="../../pages/shop.html">Wands&lt;/a>
-            &lt;a href="../../pages/shop.html">Machines&lt;/a>
-            &lt;a href="../../pages/shop.html">Customize&lt;/a>
-          &lt;/div>
+          &lt;ul>
+            &lt;li class="gutter-1-2 nav-item mega">&lt;a href="../../pages/shop.html">Shop&lt;/a>&lt;/li>
+            &lt;li class="drop-down-content">
+              &lt;a href="../../pages/shop.html">Bubbles&lt;/a>
+              &lt;a href="../../pages/shop.html">Wands&lt;/a>
+              &lt;a href="../../pages/shop.html">Machines&lt;/a>
+              &lt;a href="../../pages/shop.html">Customize&lt;/a>
+            &lt;/li>
+          &lt;/ul>
+
         &lt;/div>
         &lt;div class="drop-down">
-          &lt;li class="gutter-1-2 nav-item mega">&lt;a href="#">Services&lt;/a>&lt;/li>
-          &lt;div class="drop-down-content">
-            &lt;a href="#">About Us&lt;/a>
-            &lt;a href="#">Account&lt;/a>
-            &lt;a href="#">Contact&lt;/a>
-            &lt;a href="#">FAQ&lt;/a>
-          &lt;/div>
+          &lt;ul>
+            &lt;li class="gutter-1-2 nav-item mega">&lt;a href="#">Services&lt;/a>&lt;/li>
+            &lt;li class="drop-down-content">
+              &lt;a href="#">About Us&lt;/a>
+              &lt;a href="#">Account&lt;/a>
+              &lt;a href="#">Contact&lt;/a>
+              &lt;a href="#">FAQ&lt;/a>
+            &lt;/li>
+          &lt;/ul>
         &lt;/div>
-      &lt;/ul>
+      &lt;/div>
     &lt;/nav>
     &lt;div class="search-container unit s-1 m-1-3 l-1-3">
       &lt;div>
         &lt;form class="grid" action="index.html" method="post">
           &lt;input class="search-term unit xs-1-2 s-1-2 m-1-2 l-1-2" type="text" placeholder="Search" name="search">
-          &lt;button class="search-btn icon-link unit xs-1-4 s-1-4 m-1-4 l-1-4" type="" name="button">&lt;i class="icon i-24 search-icon">&lt;svg>&lt;use xlink:href="../../images/icons.svg#search-icon-white"/>&lt;/svg>&lt;/i>&lt;/button>
+          &lt;button class="search-btn icon-link unit xs-1-4 s-1-4 m-1-4 l-1-4">&lt;i class="icon i-24 search-icon">&lt;svg>&lt;use xlink:href="../../images/icons.svg#search-icon-white"/>&lt;/svg>&lt;/i>&lt;/button>
           &lt;a class="cart-btn icon-link unit xs-1-4 s-1-4 m-1-4 l-1-4 mega" href="#">&lt;i class="icon i-32 cart-icon">&lt;svg>&lt;use xlink:href="../../images/icons.svg#cart-icon-primary-color"/>&lt;/svg>&lt;/i>Cart&lt;/a>
         &lt;/form>
       &lt;/div>
@@ -2304,6 +2313,10 @@
       </nav>
   </div>
 
+      <div class="pattern-desc milli island" >
+        <div class="max-length"><p>The breadcrumbs navigation should be used on every page within the products pages. It should adapt to the path the user has aken to reach the current page.</p>
+</div>
+      </div>
 
   
 
@@ -2334,6 +2347,10 @@
                 </li>
             </ul>
         </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>The breadcrumbs navigation should be used on every page within the products pages. It should adapt to the path the user has aken to reach the current page.</p>
+</div>
+          </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2">
@@ -2400,6 +2417,10 @@
                 </li>
             </ul>
         </div>
+          <div class="pattern-desc milli island" style="">
+            <div class="max-length"><p>The pagination should appear at the bottom of each products list page to inform the user of with page they are on and allow them to navigate between pages.</p>
+</div>
+          </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2">

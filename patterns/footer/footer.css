@@ -1,25 +1,25 @@
-footer  {
+footer {
   background-color: var(--color-primary);
   color: white;
 }
 
 .foot-nav a {
   text-align: center;
-  padding: 10px 10px;
+  padding: 10px;
   text-decoration: none;
   color: white;
 }
 
 .social-icons {
   text-align: right;
-  padding-bottom: none;
+  padding-bottom: 0;
   margin: 0;
 }
 
 .footer-content {
   border-top: 2px solid white;
   border-bottom: 2px solid white;
-  padding: 3em 5em 2em 5em;
+  padding: 3em 5em 2em;
 }
 
 .copyright {
@@ -27,13 +27,15 @@ footer  {
   line-height: 1.3rem;
 }
 
-@media only screen and (max-width: 36em) {
+@media only screen and (min-width: 36em) {
+
   .footer-content {
-    padding: 3em 0 2em 0;
+    padding: 3em 0 2em;
   }
 
   .social-icons {
     text-align: center;
     margin: 0;
   }
+
 }

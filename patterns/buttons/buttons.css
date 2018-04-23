@@ -14,14 +14,14 @@
 
 .btn-grey {
   background-color: rgba(0, 0, 0, .4);
-  border: 0px;
+  border: 0;
 
   color: #fff;
 }
 
 .btn-underline {
   background-color: transparent;
-  border: 0px;
+  border: 0;
 
   color: var(--color-primary);
   text-decoration: underline;
@@ -36,5 +36,5 @@
 
 .btn-default:hover, .btn-green:hover, .btn-grey:hover, .btn-ghost:hover {
   background-color: var(--color-primary);
-  border-color: var(--color)
+  border-color: var(--color);
 }
